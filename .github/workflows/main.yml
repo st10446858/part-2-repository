@@ -68,4 +68,4 @@ jobs:
         working-directory: ./test
         run: |
          ls
-         java -Djava.awt.headless=true -jar  "../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class loginassignment.loginassignmentTest
+         java -Djava.awt.headless=true -jar  "../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class loginassignment.LoginTest
